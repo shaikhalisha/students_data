@@ -1,4 +1,3 @@
-```python
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -117,5 +116,4 @@ CORS_ALLOWED_ORIGINS = [
     "https://students-data-git-main-alishashaikhs-projects.vercel.app",
 ]
 
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-```
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField",
