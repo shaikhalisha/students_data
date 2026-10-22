@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7F1EE"/>
+      <stop offset="1" stop-color="#F6F8F7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="building" x1="1100" y1="80" x2="1100" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5E5E0"/>
+      <stop offset="1" stop-color="#E9F0ED"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="1240" y1="290" x2="1240" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7E9E2"/>
+      <stop offset="1" stop-color="#EAF2EF"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v600H0z"/>
+  <circle cx="1390" cy="116" r="58" fill="#F6F3E8"/>
+  <path d="M0 424c196-44 364-24 551 9 195 35 379 16 589-26 166-33 303-38 460-4v197H0V424Z" fill="url(#hill)"/>
+  <path d="M735 265 1081 79l347 186v18H735v-18Z" fill="#D6E5E0"/>
+  <path d="m767 262 314-168 315 168H767Z" fill="#E2ECE8"/>
+  <path d="M817 266h527v211H817z" fill="url(#building)"/>
+  <path d="M779 258h603v25H779z" fill="#CCDCD6"/>
+  <path d="M802 467h558v19H802z" fill="#C8D9D2"/>
+  <path d="M869 306h52v55h-52zM978 306h52v55h-52zM1087 306h52v55h-52zM1196 306h52v55h-52z" fill="#F5F8F6"/>
+  <path d="M869 386h52v55h-52zM978 386h52v55h-52zM1196 386h52v55h-52z" fill="#F5F8F6"/>
+  <path d="M1081 368h66v109h-66z" fill="#BFD3CB"/>
+  <path d="M1094 384h40v93h-40z" fill="#EDF3F0"/>
+  <path d="M153 422c0-25 20-45 45-45s45 20 45 45v70h-90v-70Z" fill="#D1E3DC"/>
+  <path d="M193 415c0-18 14-32 32-32s32 14 32 32v77h-64v-77Z" fill="#C6DBD2"/>
+  <path d="M1435 422c0-29 23-52 52-52s52 23 52 52v70h-104v-70Z" fill="#CFE1D9"/>
+  <path d="M1473 410c0-21 17-38 38-38s38 17 38 38v82h-76v-82Z" fill="#C3D9D0"/>
+  <g stroke="#C1D6CE" stroke-linecap="round" stroke-width="3">
+    <path d="M168 489v-37m0 9-14-13m14 23 14-15m1296 32v-49m0 18-17-17m17 29 17-18"/>
+    <path d="M714 188h25m-12-12v25m671 66h25m-13-12v25"/>
+  </g>
+  <g fill="#C1D6CE">
+    <circle cx="713" cy="211" r="3"/><circle cx="1375" cy="289" r="3"/>
+    <circle cx="570" cy="336" r="2"/><circle cx="638" cy="390" r="3"/>
+  </g>
+</svg>
