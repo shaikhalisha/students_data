@@ -1,4 +1,4 @@
-
+```python
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -14,7 +14,8 @@ DEBUG = os.environ.get("DJANGO_DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = [
     host.strip()
     for host in os.environ.get(
-        "DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1"
+        "DJANGO_ALLOWED_HOSTS",
+        "localhost,127.0.0.1"
     ).split(",")
     if host.strip()
 ]
@@ -35,8 +36,8 @@ INSTALLED_APPS = [
 # Middleware
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
-    "django.contrib.sessions.middleware.SessionMiddleware",
     "corsheaders.middleware.CorsMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -74,7 +75,9 @@ DATABASES = {
         "PORT": os.environ.get("DB_PORT", "3306"),
         "OPTIONS": {
             "ssl": {
-                "ca": str(BASE_DIR / os.environ.get("DB_SSL_CA", "ca.pem")),
+                "ca": str(
+                    BASE_DIR / os.environ.get("DB_SSL_CA", "ca.pem")
+                ),
             },
         },
     }
@@ -108,9 +111,11 @@ STATIC_URL = "static/"
 # Email
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
-# React frontend
+# React frontend CORS
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://students-data-git-main-alishashaikhs-projects.vercel.app",
 ]
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+```
